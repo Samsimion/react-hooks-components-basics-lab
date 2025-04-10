@@ -5,7 +5,7 @@ import App from "../components/App";
 
 test("renders without errors", () => {
   expect(() => render(<App />)).not.toThrow();
-});
+}); 
 
 test("renders the correct child components", () => {
   const { container } = render(<App />);
